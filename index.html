@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Homepage</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="js/index.js"></script>
+    <html>
+        <style>
+            ul {
+              background-color: #263D87;
+            }
+            
+            li {
+              float: right;
+            }
+            
+            li a {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+            }
+            
+            li a:hover {
+              background-color: #1A2E66;
+            }
+            </style>
+</head>
+<body>
+    <header class="navigation">
+        <nav>
+            <div class="inline-block"><img class="logo" src="./Images/Sheeva A.png" alt="Your Logo"></div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>  
+        <section class="heroImg">
+            <div class="content">
+                <img src="Images/My Image.jpeg" alt="Your Picture">
+                <p>
+                    <strong>Hello, I’m Sheeva Ayati!</strong>
+        
+                    <br><br>
+        
+                    I’m a highly motivated UX/UI designer with a background in accounting. I have a deep appreciation for the creative aspects of design and enjoy collaborating with others to craft user-centered solutions.
+        
+                    <br><br>
+        
+                    I'm passionate about design because it allows me to explore aesthetics, color, and collaborate with teams, all while having the freedom to channel my creativity. 
+        
+                    <br><br>
+        
+                    My strongest skills lie in designing the solution and end product, where I excel in user research, user empathy, and crafting intuitive user interfaces.
+        
+                    <br><br>
+        
+                    When I'm not immersed in UX/UI design, I’m expressing my creativity through painting, watching basketball, yoga, and playing with my furry cats.
+        
+                    <br><br>
+        
+                    Thank you for taking the time to explore my portfolio, and I look forward to the possibility of collaborating!
+                </p>
+        
+                <button id="downloadResumeBtn">Download Resume</button>
+            </div>
+        </section>       
+    </section>
+    <title>My UX Skills</title>
+    <style>
+        .mySkills {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .flexContainer {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .flexChild {
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <section class="mySkills">
+        <h1>My UX Skills</h1>
+        
+        <div class="flexContainer">
+            <div class="flexChild">
+                <img src="Images/Post.jpg" alt="Skill 1 Icon">
+                <h3>User Research</h3>
+                <p>Leveraging a meticulous approach to user research, I uncover invaluable insights that shape user-centered design solutions, ensuring a profound understanding of user needs and behaviors.</p>
+            </div>
+            <div class="flexChild">
+                <img src="Images/ui design.png" alt="Skill 2 Icon">
+                <h3>User Interface Design</h3>
+                <p>With a keen eye for aesthetics and a user-centric mindset, I specialize in creating visually appealing and intuitive interfaces that seamlessly blend form and function, enhancing the overall user experience.</p>
+            </div>
+            <div class="flexChild">
+                <img src="Images/wireframes.png" alt="Skill 3 Icon">
+                <h3>Prototyping</h3>
+                <p>From wireframes to interactive prototypes, I excel in translating design concepts into tangible, user-tested experiences, ensuring a smooth and engaging journey for users as they interact with digital interfaces.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- My Work Section Constructed using CSS Grid -->
+    <section class="myWork">
+        <h1>My Work</h1>
+        <div class="workGrid grid-container">
+            
+            <div class="work1">
+                <img src="Images/Group 1862.png" alt="First Project Image">
+            </div>
+            <div class="work2">
+                <h4>HOPE Center For The Arts Non-Profit Website Redesign</h4>
+                <p>Redesign website for improved navigation, structured content organization, and a refreshed design to enhance user experience and visual appeal.</p>
+                <button>View Project</button>
+            </div>
+            <div class="work3">
+                <img src="Images/test.png" alt="Second Project Image">
+            </div>
+            <div class="work4">
+                <h4>WardrobeWiz Fashion Mobile App</h4>
+                <p>Fashion mobile app that offers personalized fashion recommendations and a virtual try-on feature, catering to busy consumers looking for convenient wardrobe enhancements.</p>
+                <button>View Project</button>
+            </div>
+            <div class="work5">
+                <img src="Images/Trip.png" alt="Third Project Image">
+            </div>
+            <div class="work6">
+                <h4>TripTailor Travel Mobile App</h4>
+                <p>User-friendly travel mobile app that streamlines travel planning, offering personalized and budget-friendly options to enhance the user experience.</p>
+                <button>View Project</button>
+            </div>
+        </div>
+        <h3>View all projects!</h3>
+    </section>
+    <button class="backToTop" onclick="scrollToTop()">Back to Top</button>       
+    <footer>
+        <ul>
+            <li class="inline-block">Contact</li>
+            <li class="inline-block">Work</li>
+            <li class="inline-block">Skills</li>
+            <li class="inline-block">About</li>
+        </ul>
+    </footer>
+</body>
+</html>
