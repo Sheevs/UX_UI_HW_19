@@ -29,6 +29,16 @@
     margin: 40px auto 75px;
     text-align: center;
 }
+.myWork {
+  color: #555;
+}
+.myWork h1, .myWork h4, .myWork h3 {
+  color: #263D87; 
+}
+.mySkills h1,
+.myWork h1 {
+    font-size: 30px;
+}
 footer {
     background-color: #263D87;
     margin-top: auto;
